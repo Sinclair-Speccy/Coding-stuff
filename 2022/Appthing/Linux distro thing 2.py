@@ -1,0 +1,36 @@
+from tkinter import *
+
+gui = Tk(className='Linux distro thing')
+
+gui.geometry("800x500")
+
+var1 = IntVar()
+Checkbutton(text="Education", variable=var1).place(x=150, y=50)
+var2 = IntVar()
+Checkbutton(text="Gaming", variable=var2).place(x=230, y=50)
+var3 = IntVar()
+Checkbutton(text="Old computers", variable=var3).place(x=300, y=50)
+var4 = IntVar()
+Checkbutton(text="Free software", variable=var4).place(x=410, y=50)
+var5 = IntVar()
+Checkbutton(text="Data rescue", variable=var5).place(x=510, y=50)
+var6 = IntVar()
+Checkbutton(text="Ease of use", variable=var6).place(x=600, y=50)
+var7 = IntVar()
+Checkbutton(text="Small", variable=var7).place(x=150, y=100)
+var8 = IntVar()
+Checkbutton(text="Medium", variable=var8).place(x=215, y=100)
+var9 = IntVar()
+Checkbutton(text="Large", variable=var9).place(x=300, y=100)
+var10 = IntVar()
+Checkbutton(text="USB", variable=var10).place(x=150, y=150)
+var11 = IntVar()
+Checkbutton(text="Floppy Disk", variable=var11).place(x=200, y=150)
+var12 = IntVar()
+Checkbutton(text="CD-ROM/DVD", variable=var12).place(x=290, y=150)
+var13 = IntVar()
+Checkbutton(text="Net-install", variable=var13).place(x=400, y=150)
+mainloop()
+
+
+gui.mainloop() 
