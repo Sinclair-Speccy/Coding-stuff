@@ -1,2 +1,2 @@
 for i in range(100):
-    print('Natasha')
+    print('Mici')
